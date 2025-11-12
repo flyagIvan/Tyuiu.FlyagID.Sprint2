@@ -13,7 +13,7 @@ namespace Tyuiu.FlyagID.Sprint2.Task1.V2.Lib
             result[1] = (c <= b);               // True
             result[2] = (d > c);                // True
             result[3] = (a + c < b + d);        // True
-            result[4] = (a == d);               // False
+            result[4] = (b < d);                // True ✅ исправлено
             result[5] = (b > d) && (a < c);     // False
 
             return result;
