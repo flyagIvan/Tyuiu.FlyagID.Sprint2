@@ -53,7 +53,7 @@ namespace Tyuiu.FlyagID.Sprint2.Task6.V1.Test
             Assert.AreEqual(-1, ds.FindMonthDaysCount(-5));
             Assert.AreEqual(-1, ds.FindMonthDaysCount(100));
         }
-        [TestMethod]
+[TestMethod]
         public void FindMonthDaysCountBoundary()
         {
             DataService ds = new DataService();
